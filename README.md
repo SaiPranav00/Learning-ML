@@ -60,3 +60,75 @@ Promotions
 
 Expected Output:
 Number of units to be sold (demand prediction).
+
+
+
+
+Day 2: Dataset Collection & Understanding
+
+Today’s focus was on understanding data, datasets, and how they are used in Machine Learning.
+
+What is Data?
+Data refers to raw facts or values such as numbers, text, dates, etc.
+
+What is a Dataset?
+A dataset is a structured collection of data used for analysis or training a model.
+For example: Daily sales records of a product stored in a file.
+
+What are Features?
+Features are independent variables (inputs) used to make predictions.
+For example: Date, price, promotions, past sales.
+
+What is a Target Variable?
+The target variable is what the model predicts (output).
+For example: Units sold tomorrow.
+
+Types of Datasets
+
+Structured Datasets
+
+Organized in rows and columns
+
+Easy to analyze
+For example: CSV, Excel files
+
+Unstructured Datasets
+
+No fixed format
+For example: Images, videos, text, audio
+
+For my problem statement, I am using a structured dataset.
+
+Common Dataset Format
+CSV (Comma-Separated Values) is the most commonly used format in ML because it is lightweight and easy to load using Python (pandas).
+
+Tasks Completed
+
+Task 1: Dataset Selection
+I explored multiple datasets and selected the Retail Sales and Customer Demographics Dataset, as it best fits my project.
+
+Task 2: Features and Target Variable
+
+Features: Date, Price, Product Category, Age, Gender, Total Amount
+
+Target Variable: Quantity
+
+Task 3: Dataset Observations
+
+Dataset Size
+The dataset contains 1000 rows and 9 columns, suitable for a basic ML model.
+
+Columns Present
+Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, Total Amount.
+
+Possible Data Issues
+
+Date column needs conversion to datetime format
+
+Categorical features require encoding
+
+No direct label for “tomorrow’s sales”; data must be grouped by date
+
+Possible outliers in Quantity or Total Amount
+
+Correlation between Quantity and Total Amount
